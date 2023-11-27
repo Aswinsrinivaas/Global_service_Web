@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<title>Patient Medical Help Service</title>
+	<link rel="stylesheet" href="static/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../static/css/bootstrap.min.css">
+	<link rel="stylesheet" href="{{ url_for('static', filename='static/css/style.css') }}">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,800,700,300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=BenchNine:300,400,700' rel='stylesheet' type='text/css'>
+	<script src="../static/js/modernizr.js"></script>
+	<!--[if lt IE 9]>
+      <script src="../static/js/html5shiv.js"></script>
+      <script src="../static/js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+	
+	<!-- ====================================================
+	header section -->
+	<header class="top-header">
+		<div class="container">
+			<div class="row">
+			  <div class="col-xs-5 header-logo">
+					<br>
+				  <a href="index.html"><img src="../static/img/logo1.jpg" alt="" width="175" height="164" class="img-responsive logo"></a>				</div>
+
+				<div class="col-md-7">
+					<nav class="navbar navbar-default">
+					  <div class="container-fluid nav-bar">
+					    <!-- Brand and toggle get grouped for better mobile display -->
+					    <div class="navbar-header">
+					     
+					    </div>
+
+					    <!-- Collect the nav links, forms, and other content for toggling -->
+					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					      
+					      <ul class="nav navbar-nav navbar-center">
+					        <li><a class="menu active" href="index.html" >Home</a></li>
+					        <li><a class="menu" href="about.html">About us</a></li>
+					        <li><a class="menu" href="services.html">Our services </a></li>
+					        <li><a class="menu" href="contact.html"> Contact us</a></li>
+							<li><a class="menu" href="login.html"> Sign in</a></li>
+					      </ul>
+					    </div><!-- /navbar-collapse -->
+					  </div><!-- / .container-fluid -->
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header> <!-- end of header area -->
+
+	<section class="slider" id="home">
+		<div class="container-fluid">
+			<div class="row">
+		      <div id="carouselHacked" class="carousel slide carousel-fade" data-ride="carousel">
+					<div class="header-backup"></div>
+			        <!-- Wrapper for slides -->
+			        <div class="carousel-inner" role="listbox">
+			            <div class="item active">
+			            	<img src="../static/img/slide-one.jpg" alt="">
+			                <div class="carousel-caption">
+		               			<h1>Services</h1>
+		               			<p>Admin will enter the appropriate details</p>
+		               			
+			                </div>
+			            </div>
+			            <div class="item">
+			            	<img src="../static/img/slide-two.jpg" alt="">
+			                <div class="carousel-caption">
+		               			<h1>Donations</h1>
+		               			<p>Patient Will Get their medical service donation quickly</p>
+		               			
+			                </div>
+			            </div>
+			            <div class="item">
+			            	<img src="../static/img/slide-three.jpg" alt="">
+			                <div class="carousel-caption">
+		               			<h1>Services</h1>
+		               			<p>highquality service for men & women</p>
+		               			
+			                </div>
+			            </div>
+			            <div class="item">
+			            	<img src="../static/img/slide-four.jpg" alt="">
+			                <div class="carousel-caption">
+		               			<h1>Services</h1>
+		               			<p>highquality service for men & women</p>
+		               			
+			                </div>
+			            </div>
+			        </div>
+		          <!-- Controls -->
+		          <a class="left carousel-control" href="#carouselHacked" role="button" data-slide="prev">
+		              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		              <span class="sr-only">Previous</span>		          </a>
+		          <a class="right carousel-control" href="#carouselHacked" role="button" data-slide="next">
+		              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		              <span class="sr-only">Next</span>		          </a>			    </div>
+			</div>
+		</div>
+	</section><!-- end of slider section -->
+
+	<!-- about section -->
+	<section class="about text-center" id="about">
+		<div class="container">
+			<div class="row">
+				<h2>About us</h2>
+				<h4>The project entitled as “A Global Patient Medical treatment Service Help alert process”, which is created to automate all process of medical field</h4>
+				<div class="col-md-4 col-sm-6">
+					<div class="single-about-detail clearfix">
+						<div class="about-img">
+							<img class="img-responsive" src="../static/img/item1.jpg" alt="">
+						</div>
+						<div class="about-details">
+							<div class="pentagon-text">
+								<h1>C</h1>
+							</div>
+							<h3>Children’s specialist</h3>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="single-about-detail">
+						<div class="about-img">
+							<img class="img-responsive" src="../static/img/item2.jpg" alt="">
+						</div>
+						<div class="about-details">
+							<div class="pentagon-text">
+								<h1>W</h1>
+							</div>
+
+							<h3>Consutant specialist</h3>
+							<p>The  existing system used manual operation, where the fund details for the hospitals  are given. Finding appropriate fund and for further information according to  the fund is difficult in the existing system. Fund providers will tend to  provide fund but it is unaware whether it is true or not. There are many possibilities for the frauds to take place  in sending fund related messages. The existing system is tedious and time  consuming. It also requires handling knowledge and skilled manpower. The  maintenance cost with this system is periodical and unavoidable.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="single-about-detail">
+						<div class="about-img">
+							<img class="img-responsive" src="../static/img/item3.jpg" alt="">
+						</div>
+						<div class="about-details">
+							<div class="pentagon-text">
+								<h1>M</h1>
+							</div>
+							<h3>Healthcare specialist</h3>
+							<p>In proposed system, admin will enter the necessary  information regarding the needs for the patient. Any fund details or else blood  donator details will be registered by the admin only. By this process the  donators will come to know about the actual needed users..</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- end of about section -->
+
+
+	<!-- service section starts here -->
+	<!-- end of service section -->
+    <!-- team section -->
+<section class="team" id="team"></section>
+<!-- end of team section -->
+
+	<!-- map section -->
+	<div class="api-map" id="contact">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 map" id="map"></div>
+			</div>
+		</div>
+	</div><!-- end of map section -->
+
+	<!-- contact section starts here -->
+	<section class="contact">
+		<div class="container">
+			<div class="row">
+				<div class="contact-caption clearfix">
+					<div class="contact-heading text-center">
+						<h2>contact us</h2>
+					</div>
+					<div class="col-md-5 contact-info text-left">
+						<h3>contact information</h3>
+						<div class="info-detail">
+							<ul><li><i class="fa fa-calendar"></i><span>Monday - Friday:</span> 9:30 AM to 6:30 PM</li></ul>
+							<ul>
+							  <li><i class="fa fa-map-marker"></i><span>Address:</span> 213, 1st Floor, DVR Towers,2nd Street,Cross-Cut Road,Gandhipuram,Cbe-641012 </li>
+							</ul>
+							<ul>
+							  <li><i class="fa fa-phone"></i><span>Phone:</span> +91 90036 70809 , +91 9629568909 </li>
+							</ul>
+							<ul>
+							  <li><i class="fa fa-fax"></i><span>Web: www.seattletech.in </span></li>
+							</ul>
+							<ul>
+							  <li><i class="fa fa-envelope"></i><span>Email:</span> seattlecbe@gmail.com </li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-6 col-md-offset-1 contact-form">
+						<h3>leave us a message</h3>
+
+						<form class="form">
+							<input class="name" type="text" placeholder="Name">
+							<input class="email" type="email" placeholder="Email">
+							<input class="phone" type="text" placeholder="Phone No:">
+							<textarea class="message" name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+							<input class="submit-btn" type="submit" value="SUBMIT">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- end of contact section -->
+	<!-- contact section starts here -->
+	<!-- end of contact section -->
+    <!-- footer starts here -->
+<footer class="footer clearfix">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-6 footer-para">
+					<p>Copyrights &copy;Seattle Technologies </p>
+				</div>
+				<div class="col-xs-6 text-right">
+					<a href=""><i class="fa fa-facebook"></i></a>
+					<a href=""><i class="fa fa-twitter"></i></a>
+					<a href=""><i class="fa fa-skype"></i></a>
+				</div>
+			</div>
+		</div>
+</footer>
+
+	<!-- script tags
+	============================================================= -->
+	<script src="../static/js/jquery-2.1.1.js"></script>
+	<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+	<script src="../static/js/gmaps.js"></script>
+	<script src="../static/js/smoothscroll.js"></script>
+	<script src="../static/js/bootstrap.min.js"></script>
+	<script src="../static/js/custom.js"></script>
+</body>
+</html>
